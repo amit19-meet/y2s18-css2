@@ -15,4 +15,26 @@ p {
 
 a {
     color:red;
+    font-family: "sans-serif";
+}
+
+a:hover{
+	background-color: blue;
+}
+
+#important_paragraph:hover{
+	background-color: yellow;
+	font-size: 40pt
+}
+
+.not_important:hover{
+	color: blue;
+}
+
+#hidden_div{
+	display: none;
+}
+
+#span_cover:hover + #hidden_div {
+    display: block;
 }
